@@ -1,0 +1,28 @@
+{
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}/tools:${env:PYTHONPATH}"
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/tools:${env:PYTHONPATH}"
+    },
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}\\tools;${env:PYTHONPATH}"
+    },
+
+    "jupyter.notebookFileRoot": "${workspaceFolder}/tools",
+
+    "python.analysis.extraPaths": [
+        "./tools"
+    ],
+
+    "editor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "chat.editor.wordWrap": "on",
+    "notebook.output.textLineLimit": 50,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Monaco,  'Apple Color Emoji'",
+    "jupyter.logging.level": "trace",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 999,
+    "notebook.scrolling.revealNextCellOnExecute": "firstLine",
+}
