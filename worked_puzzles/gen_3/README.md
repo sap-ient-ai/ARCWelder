@@ -1,0 +1,1 @@
+These puzzles have been deliberately selected as being some of the hardest ARC puzzles.
